@@ -66,5 +66,5 @@ stages:
         namespace: 'default'
         command: 'upgrade'
         chartType: 'FilePath'
-        chartPath: '$(System.ArtifactsDirectory)/helm-*.tgz'
-        releaseName: 'myhelmrelease'
+        chartPath: '$(System.ArtifactsDirectory)/helm-0.1.0.tgz'
+        releaseName: 'myhelmrelease2105'
